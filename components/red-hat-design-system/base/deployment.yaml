@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: red-hat-design-system
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads/bepowers-tenant/red-hat-design-system/red-hat-design-system@sha256:55301739c371cf4cded8b8d9383bfacc265df212fde9255528c4ecc6237bee40
         name: my-nodejs
         ports:
         - containerPort: 3001
